@@ -4,4 +4,4 @@ def suma(a,b):
 
 def suma(c,d):
 
-    return c+d
+    return d+c
