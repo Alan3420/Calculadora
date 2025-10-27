@@ -1,7 +1,7 @@
-from sumar import sumar
-from restar import restar
-from multiplicar import multiplicar
-from dividir import dividir
+from suma import suma
+from resta import resta
+from multiplicacion import multiplicacion
+from division import division
 
 def main():
     print("=== Calculadora Simple ===")
@@ -16,13 +16,13 @@ def main():
     b = float(input("Ingresa el segundo número: "))
 
     if opcion == "1":
-        print(f"Resultado: {sumar(a, b)}")
+        print(f"Resultado: {suma(a, b)}")
     elif opcion == "2":
-        print(f"Resultado: {restar(a, b)}")
+        print(f"Resultado: {resta(a, b)}")
     elif opcion == "3":
-        print(f"Resultado: {multiplicar(a, b)}")
+        print(f"Resultado: {multiplicacion(a, b)}")
     elif opcion == "4":
-        print(f"Resultado: {dividir(a, b)}")
+        print(f"Resultado: {division(a, b)}")
     else:
         print("Opción no válida")
 
