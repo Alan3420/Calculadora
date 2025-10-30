@@ -1,3 +1,3 @@
 def suma(a,b):
 
-    return a+b
+    print("Funcion que en ves de sumar, solo envia un mensaje")
